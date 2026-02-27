@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prof Dr V Rajendran | Veerajendran</title>
+    <!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&amp;display=swap" rel="stylesheet">	  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	   <style>
+       .awards ul{
+           list-style-image: url(img/bullet.jpg);
+       }
+   </style>
+  </head>
+    <body id="top" class="main_page">
+ 
+	<header id="home">
+	  <style>
+@media (min-width : 768px){
+	.navigation {
+  background: #1b2942;
+}
+nav {
+  background: #1b2942;
+}
+}
+@media (max-width : 767px){
+	.nav-list{
+		background: #1b2942;
+	}
+}
+.nav-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a,
+nav ul li a:visited {
+  display: block;
+  padding: 0 15px;
+  font-size: 1.1em;
+  line-height: 70px;
+  color: #fff; letter-spacing: 1px;
+  text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a:visited:hover {
+  color: #ffad18;
+}
+nav ul li a.active {
+    color: #ffad18;
+}
+
+nav ul li a:not(:only-child):after,
+nav ul li a:visited:not(:only-child):after {
+  padding-left: 4px;
+  content: " ▾";
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+
+.nav-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile navigation */
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #1b2942;
+  height: 40px;
+  width: 60px;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 798px) {
+  .nav-mobile {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    padding: 70px 0 15px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+
+  .nav-dropdown {
+    position: static;
+  }
+}
+@media screen and (min-width: 799px) {
+  .nav-list {
+    display: block !important;
+  }
+}
+#nav-toggle {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  cursor: pointer;
+  padding: 0px; z-index:999; color: #fff; font-weight: 800;
+}
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 35px;
+  background: #ffffff;
+  position: absolute;
+  display: block;
+  content: "";
+  transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after { 
+  transform: rotate(-45deg);
+}
+
+</style>
+<section class="navigation" style="position: fixed; width: 100%; z-index: 999;top: 0;">
+  <div class="container">
+  <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!">Menu</a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="active"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="about.html" class=""><span>About VR</span></a>
+        </li>
+		<li>
+          <a href="#" class=""><span>Academic</span></a>
+        </li>
+        <li>
+          <a href="#" class=""><span>Administration</span></a>
+        </li>
+		<li>
+          <a href="#" class=""><span>Research Projects</span></a>
+        </li>
+        <li>
+          <a href="#" class=""><span>Publications</span></a>
+        </li>
+		
+        <li>
+          <a href="#" class="dropbtn ">Recognition</a>
+          <!--<ul class="nav-dropdown">
+            <li>
+              <a href="awards.php">Awards</a>
+            </li>
+            <li>
+              <a href="fellowships.php">Fellowships</a>
+            </li>
+          </ul>-->
+        </li>
+        <li>
+          <a href="#" class=""><span>Gallery</span></a>
+        </li>
+        <li>
+          <a href="index.html#contact"><span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+ 	<section class="hero" id="hero">
+            <div class="container">
+			  
+             
+			  
+              <div class="row">
+			   <div class="col-md-6">
+			   <img src="img/rajendran.jpg" class="vrimg" width="60%" style="position: absolute; margin-top: 15%;"/>
+                 </div>
+                <div class="col-md-6 inner">
+                  <h1 class="animated fadeInDown" style="font-size: 45px; letter-spacing: 0px;">
+                    <span>Prof. Dr. V. Rajendran</span>
+                  </h1><!-- Title -->
+                  <h3 style="letter-spacing:0px; font-size: 20px;color: #fff; text-transform: inherit;">M.Sc., M.Phil., M.Tech. (Nanotech), Ph.D., D.Sc.</h3>
+				 
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+               <!--<div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div> -->
+            </div>
+          </section>	</header>
+			<div class="container">
+              <div class="col-md-12">
+			  <div class="col-md-6" style="float: right; ">
+			  <br/>
+			  <ul class="social-buttons">
+                  <li><a href="https://www.linkedin.com/in/dr-v-rajendran-0696a220" target="_blank"><img src="img/linkedin.png" width="40"/></a></li><!-- dribble -->
+                  <li><a href="#" target="_blank"><img src="img/fb.png" width="40"/></a></li><!-- twitter -->
+				  <li><a href="https://vidwan.inflibnet.ac.in/profile/59941" target="_blank"><img src="img/vidwan.png" width="210"/></a></li>
+				  
+                </ul>
+			   <p style="color: #000; font-size: 16px; font-weight: 500;">A dynamic, inspiring, and innovative professional, Dr V. Rajendran has established himself as a renowned researcher, proficient academician and influential administrator. <br/> An outstanding administrator with sterling leadership qualities, he made relentless efforts in developing and leading institutions of repute. He epitomised academic excellence and spearheaded the establishment of several Centers of Excellence and laboratories. Widely travelled around the world for research and collaborations, Dr Rajendran has been recognized for his contributions in the field of nano technology.</p>
+			   
+              <a href="about.html" class="weight-outline-btn">Read more</a>
+			  </div>
+               </div>
+			   </div>
+	<div class="container awards" style="padding-top: 60px; ">
+	<h2>Leadership / Administrators </h2>
+	<ul>
+	<li><h3><strong>Leadership for Academicians Program (LEAP)</strong> sponsored by Ministry of Education, Government of India, both in  University of Pennsylvania,  (UPenn) USA  (2021) and Tata Institute of Social Sciences, Mumbai, India</h3></li>
+	<li><h3><strong>Fulbright Nehru International Education Administrators</strong> by United States-India Educational Foundation (USIEF), USA , 2015</h3></li>
+	<li><h3><strong>CHAIRMAN for NAAC Peer Team Visit to HEI </strong> by National Assessment and Accreditation Council (NAAC), Ministry of Education, Govt. of India</h3></li>
+	</ul>
+	<p class="wspace"></p>
+	<h2>WORLD RECOGNITION</h2>
+	<ul>
+	<li><h3>Recognized as <strong>top 2% of the World Scientist</strong> 
+	in the field of Material Science by  <strong>Elsevier BV</strong> and <strong>Stanford University, USA</strong> for the <strong>past five years</strong> from 2019 to 2023. It is  selected based on 44 unique parameters in research and development such as publications, h-index, citations and inventions </h3></li>
+	</ul>
+	<p class="wspace"></p>
+	<h2>ASSOCIATION WITH NOBLE LAUREATES </h2>
+	<ul>
+	<li><h3><strong>Invited Five Nobel Laureates</strong> to interact and motivate young minds (School Children) and students and staff over a period of five years</h3></li>
+	</ul>
+	<p class="wspace"></p>
+	<h2>COUNTRY VISITED </h2>
+	<ul>
+	<li><h3><strong>Visited more than 28 countries</strong> across the globe only under academic visit as Visiting Professor, Keynote / Plenary Speaker and  to explore/sign  Memorandum of Understanding (MoU) for staff and students exchange programs.</h3></li>
+	</ul>
+	<p class="wspace"></p>
+	<h2>RESEARCH SUPERVISION</h2>
+	<h3 style="padding-left: 20px;"><strong><img src="img/bullet.jpg"/> &nbsp;Ph.D. &nbsp; 30+ &nbsp;&nbsp;|&nbsp;&nbsp; Post-Doc: &nbsp; 4 &nbsp;&nbsp;|&nbsp;&nbsp; National Post-Doc: &nbsp; 1 &nbsp;&nbsp;|&nbsp;&nbsp; Currently under supervision: &nbsp; 4</strong></h3>
+	<p class="wspace"></p>
+	<h2>COLLABORATIONS </h2>
+	<ul>
+	<li><h3><strong>More than 25 functional MoUs</strong> with universites &amp; research centers across countries like Europe (Germany, Italy, France, UK, etc.), USA, Canada, Australia, South Korea, etc.</h3></li>
+	</ul>
+	<p class="wspace"></p>
+	<h2>Grant-in-aid </h2>
+	<ul>
+	<li><h3>Received  grant-in-aid to the tune of more than <strong>₹ 24.28 Crore</strong> from different Govt. India agencies like DST, DRDO, etc. and German (DAAD), as Principal Investigator (Funded Projects) /Coordinator</h3></li>
+	</ul>
+	<p class="wspace"></p>
+	<h2>AWARDS </h2>
+	<ul>
+	
+<li><h3>Recipient of  <strong>25+ Awards</strong> , <strong>18+ Fellowships and 100+ Honours</strong>  both <strong>International and National</strong> Levels</h3></li>
+<li><h3>Recipient of <strong>PSN National Award for Excellence in Science and Technology  (₹ 1/- lakh cash award )</strong>  for his innovative research and scientific contribution in Science and Technology in the year 2013</h3></li>
+<li><h3>Recipient of  <strong>National Council for Science &amp; Technology Communication (NCSTC) Award  (₹ 1/- lakh cash award)</strong> for his Outstanding efforts in S &T; popularization among Children  from <strong>Department of Science and Technology, Govt. of India in the year 2016</strong></h3></li>
+
+<li><h3>Recipient of <strong>Prof.K. Arumugam National Award for innovative work in Engineering and Technology (₹ 8000/- cash award)</strong> for his outstanding contribution in the field of Nanotechnology from <strong>The Indian Society for Technical Education (ISTE) in the year 2011</strong></h3></li>
+
+<li><h3>Recipient of <strong>Tamil Nadu Scientists Award (TANSA)  (₹ 10000/- cash award)</strong>  for his outstanding contribution in Ultrasonics and its
+ measurements from  <strong>Tamil Nadu State Council for Science and Technology, Govt. of Tamil Nadu</strong> during the year 1996-97</h3></li>
+ 
+<li><h3>Recipient of <strong>NDT Man of the year Award</strong> from <strong>The Indian Society for Non-Destructive Testing (ISNDT)</strong> in the year 2004</h3></li>
+ 
+<li><h3>Recipient of <strong>Lifetime Achievement Award</strong> (₹ 25,000/- cash award) for his outstanding in academic and Research from 
+ <strong>Nehru Group of Educational and Charitable Trust, India </strong> in the year 2016  </h3></li>
+ 
+<li><h3>Recipient of <strong>Lifetime Achievement Award</strong> for his significant contribution in academic and Research from 
+ <strong>Dr. Kalam Educational Trust for Tribal</strong>, Chennai in the year 2016</h3></li>
+ 
+<li><h3>Recipient of <strong>Lifetime Achievement Award</strong> for his exemplary contribution in Science and Technology from 
+ <strong>Indian Spectro Physics Association (ISPA), Chennai in the year 2023</strong></h3></li>
+ 
+<li><h3><strong>DAAD – Fellowship</strong>, Germany, 2002</h3></li>
+	</ul>
+	</div>
+	<!--<div class="container awards" style="padding-top: 60px; ">
+	<div class="row">
+	<div class="col-md-6">
+	<ul>
+	<li><h3>Top 2% of World Scientist from Material Science by Stanford University & Elsevier BV</h3>
+<h4>2019 & 2020</h4>
+</li>
+	<li><h3>Fulbright Fellowship - Administrator</h3>
+<h4>USIEF, USA</h4>
+</li>
+	<li><h3>NCSTC Science Popularization Award </h3>
+<h4>Cash Prize – Rs. 1 Lakh | DST, Govt. of India</h4>
+
+</li>
+	<li><h3>Grant –in-Aid Received : 1349.6 L</h3>
+<h4>Completed Projects   : 22</h4>
+</li>
+<li><h3>PSNA Life Time Achievement Award </h3>
+<h4>Cash Prize – Rs. 1 Lakh </h4>
+</li>
+	</ul>
+	</div>
+	<div class="col-md-6">
+	<ul>
+	<li><h3>LEAP – Leadership </h3>
+<h4>MoE, Govt. of India<br/><br/></h4>
+
+</li>
+	<li><h3>DAAD - Fellowship</h3>
+<h4>Germany</h4>
+</li>
+	<li><h3>NAAC ASSESSOR </h3>
+<h4>UGC, Govt. of India</h4>
+
+</li>
+	<li><h3>No. Ph.D Guided: 29 </h3>
+<h4>Patent : Granted  - 4, Listed - 10 </h4>
+</li>
+<li><h3>Country visited - 40</h3>
+<h4>Visting Scientist, invited Lectures, MoU, Conference</h4>
+</li>
+	</ul>
+	</div>
+	</div>
+	</div> -->
+
+
+        <section class="features text-center section-padding" id="service" style="padding: 40px 0 60px;">
+          <div class="container">
+        
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Academic Identity</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          
+                  <div class="col-md-3">
+                     <a href="https://www.scopus.com/authid/detail.uri?authorId=55694389100" target="_blank"><img src="img/Home page/1.jpg" width="150"/>
+                    <h2>h-Index &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;45&nbsp;&nbsp;&nbsp;<br> Citations &nbsp;&nbsp;&nbsp;:&nbsp;7,163 </h2></a><!-- Title -->
+                  </div>
+          
+                  <div class="col-md-3 "> 
+                    <a href="https://www.webofscience.com/wos/author/record/1200867" target="_blank">  <img src="img/Home page/5.png" width="150"/>
+                    <h2>h-Index &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;42&nbsp;&nbsp;&nbsp;<br> Citations &nbsp;&nbsp;&nbsp;:&nbsp;6149</h2></a> <!-- Title -->
+                    <p></p>
+                  </div>
+          
+                  <div class="col-md-3 ">
+                    <a href="https://scholar.google.co.in/citations?user=Vi2mKHsAAAAJ" target="_blank"> <img src="img/Home page/3.jpg" width="150"/>
+                    <h2>h-Index &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;53&nbsp;&nbsp;&nbsp;<br>Citations &nbsp;&nbsp;&nbsp;:&nbsp;10542</h2></a><!-- Title -->
+                    <p></p>
+                  </div>
+				   <div class="col-md-3">
+                    <a href="https://orcid.org/0000-0001-9471-5311" target="_blank"> <img src="img/Home page/4.jpg" width="150"/>
+                    
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+		 <section class="text-center section-padding contact-wrap" id="contact" style="padding-bottom: 30px;padding-top: 30px; background: #1b2942;">
+          <div class="container">
+		    
+            <div class="row">
+              <div class="col-md-12" style="color: #fff; text-align: left;">
+                <h1 class="arrow" style="color: #fff; font-size: 35px; font-weight: 600;">Contact</h1>
+				<h2 style="color: #fff !important; text-transform: inherit; font-weight: 400; line-height: 28px;">
+				 
+Prof. Dr. V. Rajendran <br>
+
+ Vice Chancellor <br>
+ 
+<br>
+Official Address<br>
+
+AMET University<br>
+
+East Coast Road | Kanathur- 603112 | Chennai | Tamil Nadu | India.<br><br>
+
+Residential Address<br>
+
+Therkku Thottam | Edyapatty | Thirumalaipatty <br>
+
+Namakkal | Tamil Nadu - 637404 | India<br><br>
+
+veerajendran@gmail.com, vcvrajendran@gmail.com<br>
+
+9994137373 , 9787137373
+				</h2>
+              </div>
+            </div>
+           
+          </div>
+        </section>
+<a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+      <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>&copy; 2025. All Rights Reserved. 
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- jQuery -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+	<!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+	<!-- Text Rotator -->
+	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+	<!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+    <script>
+(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+</script> 
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script> 
+		
+		
+		
+    
+
+    </body>
+</html>
