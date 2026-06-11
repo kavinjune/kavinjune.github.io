@@ -78,8 +78,8 @@
         <li><a href="administration.html" >Administration</a></li>
         <li><a href="research.html" >Research Projects</a></li>
         <li><a href="publications.html">Publications</a></li>
-        <li><a href="recognition.html">Recognition</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="recognition.html" class="active">Recognition</a></li>
+        <li><a href="#">Gallery</a></li>
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </div>
@@ -89,17 +89,112 @@
   <!-- ABOUT -->
   <div class="container about_vr" style="margin-top: 10%; margin-bottom: 3%;">
     <div class="col-md-12">
-      <h1>Recognitions</h1>
-      <div class="col-md-12 vr_content awards">
-        <!-- <h2>Research Acumen & Govt Sponsored Research Projects</h2> -->
-       <ul class="">
-      <li><h3>Stanford University, USA and Elsevier BV have consistently recognized him for the past <strong>FIVE YEARS as top 2% of the World Scientist</strong> in the field of Material Science since 2019. According to Stanford University and Elsevier, the top 2% of World Scientists are selected based on 44 unique parameters in research and development such as publications, h-index, citations and inventions.</h3></li>
-      <li><h3>Two of my own scholars received Ph.D. under my guideship recognised as <strong>top 2% of the World Scientist in the field of Material Science since 2022.</strong></h3></li>
-      <li><h3>Honoured with 18+ National and International Fellowships like DAAD – Germany, Visiting Scientist - Institute of Atomic Molecular Sciences, Taipei, Taiwan, Indo-German- DST DAAD for Personal Exchange Programs, Indian National Science Academy (INSA) bilateral fellowships namely Indo-Australia (2012-13) & Indo–Poland (2015-16) and so on.</h3></li>
-      <li><h3>Serving as an <strong>Adjunct Professor, University Clermont Auvergne (UCA), Clermont-Ferrand, France and Edith Cowan University (EDU), Australia since 2015.</strong></h3></li>
-      <li><h3>More than <strong>25 functional MoUs</strong> with universities & research centers across countries like <strong>Europe (Germany, Italy, France, UK, etc.), USA, Canada, Australia, South Korea, etc.</strong></h3></li>
-	</ul>
+      
+<style>
+.rec-wrap{display:flex;gap:0;}
+.rec-left{background:#1b2a3b;flex:0 0 38%;padding:2.5rem 2rem;display:flex;flex-direction:column;justify-content:center;}
+.rec-left h2{font-weight:500;color:#fff;line-height:1.4;margin:0 0 0.6rem;}
+.rec-left p{color:#8aa0b8;line-height:1.7;margin:0 0 1.5rem;}
+.kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.kpi{background:rgba(255,255,255,0.07);border-radius:8px;padding:1.5rem 1rem;text-align:center;}
+.kpi .n{font-size:22px;font-weight:500;color:#e8a838;line-height:1;}
+.kpi .l{font-size:14x;color:#8aa0b8;margin-top:3px;line-height:1.4;}
+.rec-right{flex:1;padding:1.75rem 1.75rem;display:flex;flex-direction:column;gap:1.1rem;background:var(--color-background-primary);}
+.card{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;display:flex;gap:12px;align-items:flex-start;}
+.card-icon{flex-shrink:0;width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;}
+.ic-amber{background:#FAEEDA;color:#854F0B;}
+.ic-blue{background:#E6F1FB;color:#185FA5;}
+.ic-teal{background:#E1F5EE;color:#0F6E56;}
+.ic-purple{background:#EEEDFE;color:#534AB7;}
+.ic-coral{background:#FAECE7;color:#993C1D;}
+.card-body{flex:1; }
+.card-title{font-weight:500;color:var(--color-text-primary);margin:0 0 4px;line-height:1.5;}
+.card-desc{color:var(--color-text-secondary);line-height:1.7;margin:0 0 8px;}
+.pill-row{display:flex;flex-wrap:wrap;gap:6px;}
+.pill{font-weight:500;padding:2px 10px;border-radius:20px;border:0.5px solid;}
+.pa{color:#854F0B;border-color:#EF9F27;background:#FAEEDA;}
+.pb{color:#185FA5;border-color:#85B7EB;background:#E6F1FB;}
+.pc{color:#0F6E56;border-color:#5DCAA5;background:#E1F5EE;}
+.pd{color:#534AB7;border-color:#AFA9EC;background:#EEEDFE;}
+.pe{color:#712B13;border-color:#F0997B;background:#FAECE7;}
+.divider{height:0.5px;background:var(--color-border-tertiary);}
+</style>
+
+<div class="rec-wrap">
+  <div class="rec-left">
+    <h2><span style="color: #fff;">Recognitions</span></h2>
+    <p>Global honours, fellowships &amp; academic collaborations</p>
+    <div class="kpi-grid">
+      <div class="kpi"><div class="n">Top 2%</div><div class="l">World Scientist Stanford / Elsevier</div></div>
+      <div class="kpi"><div class="n">5 Yrs</div><div class="l">Consecutive recognition since 2019</div></div>
+      <div class="kpi"><div class="n">18+</div><div class="l">Intl. Fellowships</div></div>
+      <div class="kpi"><div class="n">25+</div><div class="l">MoUs worldwide</div></div>
+    </div>
+  </div>
+
+  <div class="rec-right">
+
+    <div class="card">
+      <img src="img/bullet.jpg" width="15" style="vertical-align: middle;" />
+      <div class="card-body">
+        <p class="card-title">Top 2% World Scientist — Stanford University &amp; Elsevier BV</p>
+        <p class="card-desc">Consistently recognised for <strong>5 consecutive years</strong> (since 2019) in Material Science, selected based on 44 unique parameters including publications, h-index, citations and inventions. Two of his own Ph.D. scholars have also earned this distinction since 2022.</p>
+        <div class="pill-row">
+          <span class="pill pa">Material Science</span>
+          <span class="pill pb">44 Parameters</span>
+          <span class="pill pa">Since 2019</span>
+        </div>
       </div>
+    </div>
+
+    <div class="card">
+      <img src="img/bullet.jpg" width="15" style="vertical-align: middle;" />
+      <div class="card-body">
+        <p class="card-title">18+ National &amp; International Fellowships</p>
+        <p class="card-desc">Honoured with prestigious fellowships across the globe including DAAD Germany, Visiting Scientist at Institute of Atomic Molecular Sciences Taiwan, INSA bilateral fellowships Indo-Australia (2012–13) &amp; Indo–Poland (2015–16), and Indo-German DST-DAAD exchanges.</p>
+        <div class="pill-row">
+          <span class="pill pb">DAAD Germany</span>
+          <span class="pill pc">INSA Indo-Australia</span>
+          <span class="pill pd">INSA Indo-Poland</span>
+          <span class="pill pb">Taiwan IAMS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/bullet.jpg" width="15" style="vertical-align: middle;" />
+      <div class="card-body">
+        <p class="card-title">Adjunct Professor — France &amp; Australia (since 2015)</p>
+        <p class="card-desc">Serving as Adjunct Professor at University Clermont Auvergne (UCA), Clermont-Ferrand, France and Edith Cowan University (ECU), Australia.</p>
+        <div class="pill-row">
+          <span class="pill pc">UCA, France</span>
+          <span class="pill pc">ECU, Australia</span>
+          <span class="pill pb">Since 2015</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/bullet.jpg" width="15" style="vertical-align: middle;" />
+      <div class="card-body">
+        <p class="card-title">25+ MoUs with Global Universities &amp; Research Centres</p>
+        <p class="card-desc">Active functional collaborations spanning Europe, USA, Canada, Australia and South Korea.</p>
+        <div class="pill-row">
+          <span class="pill pd">Germany</span>
+          <span class="pill pd">France</span>
+          <span class="pill pd">Italy</span>
+          <span class="pill pd">UK</span>
+          <span class="pill pe">USA</span>
+          <span class="pill pe">Canada</span>
+          <span class="pill pc">Australia</span>
+          <span class="pill pc">South Korea</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
     </div>
   </div>
 

@@ -79,7 +79,7 @@
         <li><a href="research.html" >Research Projects</a></li>
         <li><a href="publications.html" class="active">Publications</a></li>
         <li><a href="recognition.html">Recognition</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Gallery</a></li>
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </div>
@@ -91,13 +91,87 @@
     <div class="col-md-12">
       <h1>Publications & Patents</h1>
       <div class="col-md-12 vr_content awards">
-        <!-- <h2>Research Acumen & Govt Sponsored Research Projects</h2> -->
-       <ul class="">
-      <li><h3>Authored <strong>412 + peer reviewed publications</strong> in international journals (Scopus h-index 45 with 7298 citations), 125 papers in conference proceedings.</h3></li>
-      <li><h3>Published <strong>26 textbooks, 2 research books, 1 monograph, 1 compendium book, 14 edited research books, 7 edited conference proceedings and 14 patents (4 granted).</strong></h3></li>
-      <li><h3>Supervised <strong>30+ Ph.D. (Anna, Madurai Kamarajar and Bharathiar Universities), 3 PDFs and 1 NPDF.</strong></h3></li>
-      <li><h3>Currently, mentoring <strong>3 doctoral candidates.</strong></h3></li>
-	</ul>
+        
+<style>
+.pub-wrap { display:flex; gap:0; }
+.pub-left { background:#1b2a3b; flex:0 0 38%; padding:2.5rem 2rem; display:flex; flex-direction:column; justify-content:center; }
+.pub-left h2 { font-weight:500; color:#fff; line-height:1.4; margin:0 0 0.6rem; }
+.pub-left p { color:#8aa0b8; line-height:1.7; margin:0; }
+.pub-right { flex:1; padding:2rem 1.75rem; display:flex; flex-direction:column; gap:1.25rem; background:var(--color-background-primary); }
+.stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(100px,1fr)); gap:10px; }
+.stat-card { background:#c5dff8; border-radius: 20px; padding:0.85rem 1rem; text-align:center; }
+.stat-card .num { font-size:22px; font-weight:500; color:var(--color-text-primary); line-height:1; }
+.stat-card .lbl { font-size:11px; color:var(--color-text-secondary); margin-top:4px; line-height:1.4; }
+.accent-teal .num { color:#0F6E56; }
+.accent-amber .num { color:#854F0B; }
+.accent-blue .num { color:#185FA5; }
+.accent-purple .num { color:#534AB7; }
+.row-item { display:flex; gap:10px; align-items:flex-start; }
+.row-dot { flex-shrink:0; margin-top:6px; width:8px; height:8px; border-radius:50%; background:#e8a838; }
+.row-item p { color:var(--color-text-primary); line-height:1.75; margin:0; }
+.row-item p strong { font-weight:500; color:var(--color-text-primary); }
+.divider { height:0.5px; background:var(--color-border-tertiary); }
+.pill-row { display:flex; flex-wrap:wrap; gap:7px; margin-left:18px; }
+.pill { font-weight:500; padding:3px 11px; border-radius:20px; border:0.5px solid; }
+.pill-teal  { color:#0F6E56; border-color:#5DCAA5; background:#E1F5EE; }
+.pill-amber { color:#633806; border-color:#EF9F27; background:#FAEEDA; }
+.pill-blue  { color:#0C447C; border-color:#85B7EB; background:#E6F1FB; }
+.pill-purple{ color:#3C3489; border-color:#AFA9EC; background:#EEEDFE; }
+.pill-coral { color:#712B13; border-color:#F0997B; background:#FAECE7; }
+</style>
+
+<div class="pub-wrap">
+  <div class="pub-left">
+    <h2><span style="color: #fff;">Publications &amp; Patents</span></h2>
+    <p style="font-size: large;">Journals, Books, Patents &amp;<br>Research Supervision</p>
+  </div>
+
+  <div class="pub-right">
+
+    <div class="stat-grid">
+      <div class="stat-card accent-teal">
+        <div class="num">412+</div>
+        <div class="lbl">Peer reviewed publications</div>
+      </div>
+      <div class="stat-card accent-amber">
+        <div class="num">125</div>
+        <div class="lbl">Conference papers</div>
+      </div>
+      <div class="stat-card accent-blue">
+        <div class="num">h-45</div>
+        <div class="lbl">Scopus h-index</div>
+      </div>
+      <div class="stat-card accent-purple">
+        <div class="num">7,298</div>
+        <div class="lbl">Citations</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row-item">
+      <div class="row-dot"></div>
+      <p>Published <strong>26 textbooks</strong>, <strong>2 research books</strong>, <strong>1 monograph</strong>, <strong>1 compendium</strong>, <strong>14 edited research books</strong>, <strong>7 edited conference proceedings</strong> and <strong>14 patents</strong> (4 granted).</p>
+    </div>
+
+    <div class="pill-row">
+      <span class="pill pill-teal">26 Textbooks</span>
+      <span class="pill pill-blue">14 Edited Books</span>
+      <span class="pill pill-amber">7 Conf. Proceedings</span>
+      <span class="pill pill-coral">14 Patents</span>
+      <span class="pill pill-purple">4 Granted</span>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="row-item">
+      <div class="row-dot"></div>
+      <p>Supervised <strong>30+ Ph.D.</strong> scholars (Anna, Madurai Kamarajar &amp; Bharathiar Universities), <strong>3 PDFs</strong> and <strong>1 NPDF</strong>. Currently mentoring <strong>3 doctoral candidates</strong>.</p>
+    </div>
+
+  </div>
+</div>
+
       </div>
     </div>
   </div>
