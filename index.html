@@ -15,6 +15,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
   <style>
     /* Awards */
+	  #imagePopup {
+      border: none;
+      padding: 0;
+      background: transparent;
+      max-width: 90vw;
+      max-height: 90vh;
+      overflow: visible;
+    }
+
+    #imagePopup::backdrop {
+      background: rgba(0, 0, 0, 0.75);
+    }
+
+    .popup-content {
+      position: relative;
+    }
+
+    .popup-image {
+      display: block;
+      max-width: 90vw;
+      max-height: 85vh;
+      width: auto;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .popup-close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 36px;
+      height: 36px;
+      border: none;
+      border-radius: 50%;
+      background: #fff;
+      color: #222;
+      font-size: 26px;
+      line-height: 1;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .popup-close:focus-visible {
+      outline: 3px solid #007bff;
+      outline-offset: 3px;
+    }
     .awards ul { list-style-image: url(img/bullet.jpg); }
 
     /* Navigation */
@@ -56,6 +102,54 @@
     #nav-toggle.active span::before { transform: rotate(45deg); }
     #nav-toggle.active span::after { transform: rotate(-45deg); }
   </style>
+	<!-- Image popup -->
+  <dialog id="imagePopup" aria-label="Announcement">
+    <div class="popup-content">
+      <img
+        class="popup-image"
+        src=""
+        alt="Our latest announcement"
+      >
+      <button
+        class="popup-close"
+        type="button"
+        aria-label="Close popup"
+        autofocus
+      >&times;</button>
+    </div>
+  </dialog>
+
+  <script>
+    const popup = document.getElementById("imagePopup");
+    const closeButton = popup.querySelector(".popup-close");
+
+    // Open after the page finishes loading.
+    window.addEventListener("load", () => {
+      popup.showModal();
+    });
+
+    // Close using the × button.
+    closeButton.addEventListener("click", () => {
+      popup.close();
+    });
+
+    // Close when clicking outside the popup.
+    popup.addEventListener("click", (event) => {
+      const rect = popup.getBoundingClientRect();
+
+      const clickedOutside =
+        event.clientX < rect.left ||
+        event.clientX > rect.right ||
+        event.clientY < rect.top ||
+        event.clientY > rect.bottom;
+
+      if (event.target === popup && clickedOutside) {
+        popup.close();
+      }
+    });
+
+    // Escape closes a native dialog automatically.
+  </script>
 </head>
 <body id="top" class="main_page">
 
